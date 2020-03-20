@@ -1,0 +1,134 @@
+body{
+    background-color: #DEB887;
+    border-color: #191970;
+    border-style: dotted;  
+}
+.header{
+    margin-left: 35%;
+}
+.motto{
+    margin-left: 38%;
+}
+.topics{
+    display : flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+a{
+    color: #FF1493;
+}
+.journey{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.fillup1{
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.fillup2{
+    padding-top: 1%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.admission{
+    padding-top: 4%;
+    padding-left: 25%;
+}
+.contact{
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.categories{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.sportsheader{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.sports{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.sportsinfo{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.dramaheader{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.drama{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.dramainfo{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.quizheader{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.quiz{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.quizinfo{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.expheader{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.exp{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.pic{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.pic p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.pic p{
+    opacity: 0;
+}
+.pic:hover p{
+    opacity:1;
+}
+
+.pic:hover img{
+    opacity: 0.33;
+}
